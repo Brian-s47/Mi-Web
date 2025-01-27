@@ -1,0 +1,19 @@
+@import url('variable.css');
+*{ 
+    /* Se reinician parametros a defecto*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: red;
+}
+.div__logo {
+    background:  blue;
+}
+.div__menu {
+    background: green;
+}
+.ul__menu{
+    background: violet;
+}
