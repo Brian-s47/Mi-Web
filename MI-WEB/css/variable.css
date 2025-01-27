@@ -1,0 +1,14 @@
+:root { /* Acceso a Variables */
+    --font-color-1: #eee;
+    --color-gradient-1: #376e4072;
+    --color-gradient-2: #071917d5;
+    --banner-1: url(/MI-WEB/storage/img/Banner.png);
+}
+@font-face { /* Cargar Una fuente personalizada para mi pagina WEB*/
+    font-family: "Montserrat-SemiBold";
+    src: url(/MI-WEB/storage/font/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(/MI-WEB/storage/font/Montserrat/static/Montserrat-Medium.ttf);
+}
