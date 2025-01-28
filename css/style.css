@@ -62,4 +62,15 @@
     flex-direction: column;
     gap: 5px;
     color: var(--font-color-1);
+}.article__home span{
+    font-size: 28px;
+    font-family: "Montserrat-SemiBold";
+}
+.article__home h1{
+    font-size: 75px;
+    font-family: "Montserrat-SemiBold";
+}
+.article__home p{
+    width: 340px;
+    font-family: "Montserrat-Medium";
 }
