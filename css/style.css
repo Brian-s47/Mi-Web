@@ -1,0 +1,28 @@
+@import url('variables.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/***************************** header *********************************/
+.header {
+    background: red;
+    padding: 15px;
+}
+.div__logo{
+    background: blue;
+    padding: 15px;
+}
+.div__menu{
+    background: green;
+    padding: 15px;
+}
+.ul__menu{
+    background: violet;
+    padding: 15px;
+}
+.ul__menu li{
+    list-style: none;
+    font-family: "Montserrat-SemiBold";
+}
