@@ -40,8 +40,8 @@
 }
 /***************************** main *********************************/
 .main {
-    background: red;
-    padding: 20px;
+    /* background: red; */
+    /* padding: 20px; */
 }
 .section__home {
     background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2)),var(--banner-1);
