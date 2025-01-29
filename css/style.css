@@ -121,24 +121,30 @@
 
 @media (max-width: 576px){
     .header{
-
+        justify-content: normal;
     }
     .div__logo{
-
+        flex: 1;
     }
     .div__menu{
-
+        width: 100%;
     }
     .ul__menu{
-
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
     }
     .article__home{
-
+        top: 25svh;
     }
     .article__home h1{
-
+        font-size: 60px;
     }
     .section__home{
-
+        display: flex;
+        justify-content: normal;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 95svh;
     }
 }
