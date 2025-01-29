@@ -97,22 +97,25 @@
         justify-content: space-around;
     }
     .article__home{
+        left: 0;
 
     }
     .article__home span{
-
+    
     }
     .article__home h1{
-
+        font-size: 70px;
     }
     .article__home p{
 
     }
     .section__icon{
-
+        justify-content: space-around;
     }
     .section__icon img{
-
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
     }
 }
 
