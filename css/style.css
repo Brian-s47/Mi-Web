@@ -105,37 +105,39 @@ body{
 }
 /************************ section carrusel **************************/
 .div__carrusel {
+    /* background: red; */
     position: relative;
-    left: 235px;
+    left: 300px;
     display: flex;
     overflow-x: scroll;
-    width: 1394px; 
-    height: 427px; 
+    width: 1300px;
+    flex-direction: row;
+    height: 650px;
   } 
 .imagenCarrusel{
     position: relative;
-    padding: 20px;
+    padding: 25px;
     width: 342px;
     height: 232px;
-    bottom: 600px;
+    top: 25px;
     left: 23px;
 } 
 .carrusel-item h1{
     position: relative;
-    padding: 15px;
+    padding: 25px;
     color: var(--font-color-1);
     font-family: "Montserrat-SemiBold";
     font-size: 28px;
-    bottom: 600px;
+    /* bottom: 600px; */
     left: 23px;
 } 
 .carrusel-item p{
     position: relative;
-    padding: 15px;
+    padding: 25px;
     color: var(--font-color-1);
     font-family: "Montserrat-Regular";
     font-size: 20px;
-    bottom: 600px;
+    /* bottom: 600px; */
     left: 20px;
     width: 342px;
     height: 96px;
@@ -146,7 +148,7 @@ body{
     color: var(--color-gradient-2);
     font-family: "Montserrat-Regular";
     font-size: 20px;
-    bottom: 550px;
+    top: 80px;
     left: 125px;
     width: 342px;
     height: 96px;
@@ -154,8 +156,9 @@ body{
     background-color: white;
     border-radius: 25px;
 } 
-.imagenFondo{    
-    padding: 15px;
+.imagenFondo{ 
+    position: absolute; 
+    padding: 30px;
     width: 385px;
     height: 627px;
 } 
