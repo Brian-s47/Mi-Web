@@ -103,6 +103,70 @@ body{
     position: relative;
     left: 250px;
 }
+/************************ section carrusel **************************/
+.div__carrusel {
+    position: relative;
+    left: 235px;
+    display: flex;
+    overflow-x: scroll;
+    width: 1394px; 
+    height: 427px; 
+  } 
+.imagenCarrusel{
+    position: relative;
+    padding: 20px;
+    width: 342px;
+    height: 232px;
+    bottom: 600px;
+    left: 23px;
+} 
+.carrusel-item h1{
+    position: relative;
+    padding: 15px;
+    color: var(--font-color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 28px;
+    bottom: 600px;
+    left: 23px;
+} 
+.carrusel-item p{
+    position: relative;
+    padding: 15px;
+    color: var(--font-color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    bottom: 600px;
+    left: 20px;
+    width: 342px;
+    height: 96px;
+} 
+.carrusel-item a{
+    position: relative;
+    padding: 15px;
+    color: var(--color-gradient-2);
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    bottom: 550px;
+    left: 125px;
+    width: 342px;
+    height: 96px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+} 
+.imagenFondo{    
+    padding: 15px;
+    width: 385px;
+    height: 627px;
+} 
+.section_title{
+    color: var(--font-color-1);
+    font-family: "Montserrat-Medium";
+    position: relative;
+    font-size: 45px;
+    left: 300px;
+    bottom: 55px;
+}
 /*************************** Version Movil ****************************/
 @media (max-width: 960px){
     .header {
