@@ -77,29 +77,7 @@ body{
     width: 340px;
     font-family: "Montserrat-Medium";
 }
-.article__work1 h1{
-    position: absolute;
-    top: 90svw;
-    left: 2svw;
-}
-.section__work h1{
-    background: #07191700;
-    padding: 1.875vh;
-    font-size: 6.875vh;
-    font-family: "Montserrat-SemiBold";
-    color: var(--font-color-1);    
-}
-.section__work img{
-    box-sizing: border-box;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 113svh;
-    padding-left: 2svh;
-    margin: 0 auto;
-    position: absolute;
-    top: 75svw;
-}
+
 /************************ section Menu Icons **************************/
 .section__icon{
     display: flex;
@@ -107,6 +85,23 @@ body{
 }
 .section__icon img{
     /* background: red; */
+}
+/************************ section Menu work **************************/
+.section__work{
+    /* justify-items: center; */
+    padding-top: 10px;
+}
+.section__work h1{
+    position: relative;
+    font-family: "Montserrat-Semibold";
+    color: var(--font-color-1);
+    left: 300px; 
+    bottom: 150px;
+    font-size: 55px;
+}
+.section__work img{
+    position: relative;
+    left: 250px;
 }
 /*************************** Version Movil ****************************/
 @media (max-width: 960px){
