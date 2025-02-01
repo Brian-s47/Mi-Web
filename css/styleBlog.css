@@ -52,7 +52,6 @@ body{
     gap: 18px;
     padding-right: 46.82px;
     padding-top: 14.69px;
-
 }
 .div__seeker img{
     width: 20px;
@@ -64,21 +63,60 @@ body{
 .main {
     /* background: red; */
 }
-.section__homeMenu {
-    background: red;
-}
 .div__line {
     background: blue;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.section__homeMenu {
+    background: red;
+    /* padding: 15px; */
+    display: flex;
+    align-items: center;
+}
+.last__menu {
+    border-radius: 5px;
+    background: var(--color-1);
+    display: flex;
+    padding-inline: 13px;
+    padding-block: 5px;
+    padding-right: 136px;
 }
 .ul__blog {
     background: green;
+    display: flex;
+    gap: 59px;
+    align-items: center; 
+    padding-left: 136px;  
+    padding-right: 356px; 
 }
 .ul__blog li{
+    list-style: none;
+    font-family: "Montserrat-Light";
+    font-size: 15px;
+    display: flex;
 }
 .ul__blog a{
+    color: var(--font-color-3);
+    text-decoration: none;
 }
 .last__menu {
-    background: orange;
+    border-radius: 5px;
+    background: var(--color-1);
+    display: flex;
+    padding-inline: 13px;
+    padding-block: 5px;
+    /* padding-right: 136px; */
+}
+.last__menu li{
+}
+.last__menu a{
+    /* background: violet; */
+    color: var(--font-color-3);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat-Medium";
 }
 
 
