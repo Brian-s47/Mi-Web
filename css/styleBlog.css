@@ -1,18 +1,61 @@
 @import url('variables.css');
+*{
+    margin: 0;
+}
 body{
-    background: var(--font-color-2);
+    background: var(--color-gradient-2);
 }
 .header {
+    /* background: red; */
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
 }
 .div__logo {
+    /* background: blue; */
+    /* padding: 15px; */
+    display: flex;
+    padding-top: 9px;
+    padding-left: 5px;
+    width: 46px;
+    height: 46px;
+
 }
 .div__menu {
+    display: flex;
+    /* justify-content: center; */
 }
 .ul__menu {
+    /* background: green; */
+    /* padding: 15px; */
+    display: flex;
+    gap: 59px;
+    padding-top: 21px;
+    padding-left: 695px;
+    /* padding-left: 650px; */
 }
 .ul__menu li{
+    list-style: none;
+}
+.ul__menu a{
+    text-decoration: none;
+    font-family: "Montserrat-SemiBold";
+    font-size: 17px;
+    color: var(--font-color-3);
 }
 .div__seeker {
+    /* background: orange; */
+    /* padding: 15px; */
+    display: flex;
+    gap: 18px;
+    padding-right: 46.82px;
+    padding-top: 14.69px;
+
 }
 .div__seeker img{
+    width: 20px;
+    height: 15.17px;
+    display: flex;
+    justify-items: center;
 }
