@@ -5,6 +5,7 @@
 body{
     background: var(--color-gradient-2);
 }
+/***************************** header *********************************/
 .header {
     /* background: red; */
     /* padding: 15px; */
@@ -59,3 +60,25 @@ body{
     display: flex;
     justify-items: center;
 }
+/***************************** main *********************************/
+.main {
+    /* background: red; */
+}
+.section__homeMenu {
+    background: red;
+}
+.div__line {
+    background: blue;
+}
+.ul__blog {
+    background: green;
+}
+.ul__blog li{
+}
+.ul__blog a{
+}
+.last__menu {
+    background: orange;
+}
+
+
